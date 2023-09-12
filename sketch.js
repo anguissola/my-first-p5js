@@ -1,14 +1,15 @@
 function setup() {
   createCanvas(400, 400);
   rectMode(CENTER);
-  fill("red");
   noStroke();
 }
 
 function draw() {
-  background("pink");
-  rect(200, 200, 100, 100);
-  ellipse(30, 30, 30);
+  background('#a3a09b');
+  rect(195, 210, 330, 330);
+  fill('#ff9c41');
+  rect(200, 250, 150, 150);
+  fill('#d89151');
 }
 
 
